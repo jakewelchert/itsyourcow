@@ -1,0 +1,81 @@
+.index-headline {
+	text-align: center;
+}
+
+.index-intro {
+	position: relative;
+	background-color: #c83232;
+	color: #fff;
+}
+
+.index-intro-img {
+	position: relative;
+	width: 100%;
+	height: 300px;
+	background-image: url("../../img/1.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover; 
+}
+
+.index-intro-text {
+	position: relative;
+	width: 100%;
+	text-align: left;
+	padding: 70px 70px 70px 70px;
+}
+
+
+@media (min-width: 800px) {
+.index-intro-img {
+	position: absolute;
+	float: left;
+	width: 50%;
+	height: 100%;
+}
+
+.index-intro-text {
+	float: right;
+	width: 50%;
+	padding: 70px 70px 70px 70px;
+}
+}
+
+@media (min-width: 1024px) {
+.index-intro-text {
+	padding: 120px;
+}
+}
+
+
+.buyacow {
+	position: relative;
+}
+
+.buyacow-headline {
+	position: absolute;
+	width: 50%;
+	text-align: left;
+	z-index: 1;
+	margin-top: 50px;
+}
+
+	@media (min-width: 800px) {
+	.buyacow-headline h1 {
+	font-size: 6.0rem;
+	}
+	}
+
+.buyacow-img {
+	position: relative;
+	width: 80%;
+	float: right;
+}
+
+.buyacow button {
+	margin-top: 20px;
+}
+
+.process {
+	text-align: left;
+}
